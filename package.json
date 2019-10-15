@@ -1,0 +1,19 @@
+{
+  "name": "20_mongoDB",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "seeds": "node seeds.js",
+    "seeds:delete": "node seeds.js --delete"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "chalk": "^2.4.2",
+    "dotenv": "^8.1.0",
+    "mongoose": "^5.7.4"
+  }
+}
